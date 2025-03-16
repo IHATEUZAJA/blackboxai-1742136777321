@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram • Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto',Arial, Helvetica, sans-serif;
+            background-color: #fafafa;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <div class="min-h-screen flex flex-col items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-md w-full space-y-8 bg-white p-8 border border-gray-300">
+            <!-- Instagram Logo -->
+            <div class="flex justify-center">
+                <img class="h-12" src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="Instagram">
+            </div>
+
+            <!-- Login Form -->
+            <form class="mt-8 space-y-6">
+                <div class="rounded-md space-y-3">
+                    <div>
+                        <input type="text" required class="appearance-none rounded relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-sm" placeholder="Phone number, username, or email">
+                    </div>
+                    <div>
+                        <input type="password" required class="appearance-none rounded relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-sm" placeholder="Password">
+                    </div>
+                </div>
+
+                <div>
+                    <button type="submit" class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-[#0095f6] hover:bg-[#0095f6]/90 focus:outline-none">
+                        Log in
+                    </button>
+                </div>
+
+                <div class="mt-6 flex items-center justify-center">
+                    <div class="border-t border-gray-300 flex-grow"></div>
+                    <div class="mx-4 text-gray-500 text-sm">OR</div>
+                    <div class="border-t border-gray-300 flex-grow"></div>
+                </div>
+
+                <div class="text-center">
+                    <a href="#" class="text-[#385185] font-medium flex items-center justify-center">
+                        <i class="fab fa-facebook-square text-[#385185] mr-2"></i>
+                        Log in with Facebook
+                    </a>
+                </div>
+
+                <div class="text-center">
+                    <a href="#" class="text-xs text-[#00376b]">Forgot password?</a>
+                </div>
+            </form>
+        </div>
+
+        <!-- Sign up section -->
+        <div class="mt-4 max-w-md w-full bg-white p-6 border border-gray-300 text-center">
+            <p class="text-sm">
+                Don't have an account? 
+                <a href="#" class="text-[#0095f6] font-semibold">Sign up</a>
+            </p>
+        </div>
+
+        <!-- Get the app section -->
+        <div class="mt-8 text-center">
+            <p class="text-sm">Get the app.</p>
+            <div class="mt-4 flex justify-center space-x-4">
+                <a href="#" class="inline-block">
+                    <img src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_english-en.png/180ae7a0bcf7.png" alt="Download on the App Store" class="h-10">
+                </a>
+                <a href="#" class="inline-block">
+                    <img src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_english-en.png/e9cd846dc748.png" alt="Get it on Google Play" class="h-10">
+                </a>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="mt-8 text-xs text-gray-700">
+            <div class="flex flex-wrap justify-center gap-x-4 gap-y-2 mb-4">
+                <a href="#">Meta</a>
+                <a href="#">About</a>
+                <a href="#">Blog</a>
+                <a href="#">Jobs</a>
+                <a href="#">Help</a>
+                <a href="#">API</a>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Top Accounts</a>
+                <a href="#">Locations</a>
+                <a href="#">Instagram Lite</a>
+                <a href="#">Threads</a>
+                <a href="#">Contact Uploading & Non-Users</a>
+                <a href="#">Meta Verified</a>
+            </div>
+            <div class="flex justify-center items-center space-x-4">
+                <select class="text-xs text-gray-700 bg-transparent">
+                    <option value="en">English</option>
+                </select>
+                <span>© 2024 Instagram from Meta</span>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
